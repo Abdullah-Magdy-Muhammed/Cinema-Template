@@ -1,0 +1,161 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* nav-bar */
+
+.container{
+    margin-bottom: 50px;
+}
+.nav-content{
+}
+.nav-content .logo{
+    padding-top:2%;
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+.container .nav-content a{
+    text-decoration: none;
+    color: grey;
+}
+.container .nav-content ul{
+    margin-left: ;
+}
+.container .nav-content li{
+    display: inline;
+    margin: 10px;
+    color:gray;
+}
+.container .nav-content span{
+    color: rgb(255, 196, 0);
+}
+.container .nav-content li img{
+    padding-top: 10px;
+    margin-right:10px ;
+}
+
+.search {
+}  
+.container .nav-content li input{
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border-color:whitesmoke ;
+    border-style: solid;
+}
+/* flex-box*/
+section{
+    top: 200px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-container > div {
+    background-color:white;
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+    border-style: none none solid none;
+    border-color: grey;
+}
+.flex-container p{
+    text-align: left;
+    color: grey;
+}
+.flex-container h3{
+    line-height: 2em;
+    text-align: left;
+}
+/*Footer*/
+footer{
+    margin-bottom: 20px;
+}
+
+footer img {
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+.flex-container-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+ .flex-container-footer ul{
+     list-style-type: none;
+     
+}
+.flex-container-footer h4{
+    margin-bottom: 10px;
+}
+
+.social li{
+    display: flex;
+}
+footer .address a {
+    text-decoration: none;
+    color: black;
+}
+/* body of map page*/
+.btn-map{
+    background-color: burlywood;
+    border-style: none;
+    color: wheat;
+    border-radius:10px ;
+}
+.row h4{
+    margin-top: 30px;
+}
+.row hr {
+    color:red;
+    width: 50px;
+    height: 5x;
+}
+/*body of cinema page*/
+.col-6 .btn-cinema{
+    background-color: rgb(255, 196, 0);
+    color: white;
+    border-style: none;
+    padding: 4px;
+}
+.movie{
+    margin-bottom: 30px;
+    
+}
+/* body of fun*/
+section h4{
+    text-align: center;
+    color: gold;
+    list-style: outside;
+}
+.col-lg-4{
+    margin-left:40px;
+    margin-top: 20px;
+}
+/*body of shopping*/
+.btn-search{
+    width: 300px;
+    border-style:none ;
+    border-radius: 5px;
+}
+.si{
+    text-align: left;
+    opacity: 15%;
+}
+.flex-container-shop{
+    display: flex;
+  }
+  
+  .flex-container-shop > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 48%;
+  }
+
